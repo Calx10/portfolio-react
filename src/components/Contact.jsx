@@ -20,7 +20,7 @@ const Contact = () => {
             initial={{opacity:0,x:100}}
             transition={{duration:1}}
             className="my-4">{CONTACT.phoneNo}</motion.p>
-            <a href="#" className="border-b">{CONTACT.email}</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allifrizki02@gmail.com&su=Penawaran Kerja&body=Hai Allif." target="_blank" className="border-b">{CONTACT.email}</a>
         </div>
     </div>
   )

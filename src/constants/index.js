@@ -1,7 +1,11 @@
+import { image } from "motion/react-client";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+
+import certificate1 from "../assets/certificate/RevoU.png"
+import certificate2 from "../assets/certificate/Excel.png"
 
 export const HERO_CONTENT = `Saya merupakan lulusan Teknik Informatika di salah satu Universitas di Indonesia. Saya 
 menguasai pemrograman Full Stack Developer dengan backend menggunakan Laravel dan frontend menggunakan React js. 
@@ -20,14 +24,14 @@ export const EXPERIENCES = [
     year: "Juli 2023 - September 2023",
     role: "Full Stack Developer",
     company: " Badan Pangan Nasional",
-    description: `Pernah magang membuat sebuah website untuk membuat surat perjalanan dinas karyawan dalam divisi Pusat Data dan Informasi Pangan`,
+    description: `Pernah magang membuat sebuah website untuk membuat surat perjalanan dinas karyawan dalam divisi Pusat Data dan Informasi Pangan.`,
     technologies: ["Javascript", "Laravel", "HTML", "Css"],
   },
   {
     year: "Juli 2023 - Agustus 2023",
     role: "Full Stack Developer",
     company: " Ditjen Bina Pemerintahan Desa Kemendagri",
-    description: `Kolaborasi dengan kawan untuk membuat sebuah website pelatihan/belajar online bagi para pengguna`,
+    description: `Kolaborasi dengan rekan untuk membuat sebuah website pelatihan/belajar online bagi para pengguna.`,
     technologies: ["PHP", "HTML", "Css", "Javascript"],
   },
   {
@@ -75,6 +79,23 @@ export const PROJECTS = [
     description:
       "Website untuk Menampilkan, Menghapus, Menambah, Mengupdate data logistik barang yang dimiliki dan terintegrasi langsung dengan database.",
     technologies: ["HTML", "CSS", "Bootstrap", "Javascript", "SQL"],
+  },
+];
+
+export const CERTIFICATE = [
+  {
+    name: "Data Analytics & Software Development With AI",
+    from: " RevoU",
+    description: "Sebuah studi independen dari RevoU tentang bagaimana menjadi seorang data analis professional. Ditambah kursus dalam membuat sebuah website dengan HTML, CSS dan Javascript untuk menampilkan visualisasi data yang sudah dianalisis.",
+    image: certificate1,
+    technologies: ["HTML", "CSS", "Javascript", "Google Big Query", "Looker Studio", "SQL"]
+  },
+  {
+    name: "Microsoft Office Specialist (Excel)",
+    from: " Microsoft",
+    description: "Mengerjakan sebuah test yang berisikan tentang bagaimana cara mengoperasikan excel dengan studi kasus dan soal-soal yang sudah disediakan oleh penyelenggara.",
+    image: certificate2,
+    technologies: ["MS.Excel"]
   },
 ];
 

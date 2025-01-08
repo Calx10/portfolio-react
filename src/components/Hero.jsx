@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants"
 //import profilePic from "../assets/kevinRushProfile.png"
-import profilePic from "../assets/ProfilePic.jpg"
+import profilePic from "../assets/ProfilePic2.jpg"
 
 // import { motion } from "framer-motion"
 import { motion } from "motion/react"
@@ -43,7 +43,7 @@ const Hero = () => {
                     initial={{x:100,opacity:0}}
                     animate={{x:0, opacity:1}}
                     transition={{duration:1,delay:1.2}}
-                    className="rounded-2xl" src={profilePic} alt="Allif Rizki" />
+                    className="rounded-2xl w-30" src={profilePic} alt="Allif Rizki" />
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Certificate from "./components/Certificate";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
@@ -22,7 +23,9 @@ const App = () => {
         <Technologies />
         <Experience />
         <Projects />
+        <Certificate />
         <Contact />
+        
 
       </div>
     </div>
