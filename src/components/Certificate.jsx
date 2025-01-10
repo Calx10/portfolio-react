@@ -27,7 +27,7 @@ const Certificate = () => {
                         <h6 className="mb-2 font-semibold">{certificate.name} - 
                             <span className="text-sm text-purple-400">{certificate.from}</span>
                         </h6>
-                        <p className="mb-4 text-neutral-400">{certificate.description}</p>
+                        <p className="mb-4 text-neutral-400 text-justify">{certificate.description}</p>
                         {certificate.technologies.map((tech,index) => (
                             <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm
                             font-medium text-cyan-500">{tech}</span>

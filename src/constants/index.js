@@ -14,10 +14,11 @@ skill di bidang Data Analis juga. `;
 
 export const ABOUT_TEXT = `Saya seorang yang bermotivasi tinggi dengan pola pikir berkembang yang kuat, sikap positif, 
 dan semangat untuk belajar. Saya mempunyai pengalaman sebelumnya sebagai pengembang web menggunakan framework Laravel 
-sebagai backend. React, Js, Css, Html juga query SQL juga saya kuasai dalam mengembangkan web. Saya juga 
+sebagai backend engineer. React, Js, Css, Html juga query SQL juga saya kuasai dalam mengembangkan web. Saya juga 
 mempunyai 5 buah jurnal tentang Bussines Intelligence dan data mining yang terakreditasi Sinta 4. Sebelumya 
 saya juga pernah mengikuti pelatihan Data Analytics and Software Development dari RevoU. Maka dari itu saya mempunyai skill dan minat dalam 
-analisis data. Saya bersemangat untuk bergabung dengan tim Anda dan memberikan kontribusi yang berharga.`;
+analisis data. Saya juga telah menyelesaikan studi strata 1 saya pada prodi Teknik Informatika dengan IPK mencapai
+3.73 dan dinyatakan sebagai lulusan yang cumlaude. Saya bersemangat untuk bergabung dengan tim Anda dan memberikan kontribusi yang berharga.`;
 
 export const EXPERIENCES = [
   {
