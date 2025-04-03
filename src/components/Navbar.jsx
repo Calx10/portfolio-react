@@ -15,7 +15,7 @@ const Navbar = () => {
             <a href="https://www.linkedin.com/in/allif-rizki-abdillah-99b03818b/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="https://www.instagram.com/liffrzk/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/allifriz.a/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
             </a>
             {/* <FaSquareXTwitter /> */}
