@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants"
 //import profilePic from "../assets/kevinRushProfile.png"
-import profilePic from "../assets/ProfilePic3.jpg"
+import profilePic from "../assets/ProfilePic4.jpg"
 
 // import { motion } from "framer-motion"
 import { motion } from "motion/react"
